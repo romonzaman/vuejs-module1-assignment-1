@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="jumbotron ">
+      <h1 class="row justify-content-center">Weather App</h1>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="form-group pt-4">
+          <label for="location">Enter city name or zip code:</label>
+          <input type="text" class="form-control" id="location"
+            placeholder="Enter city name (dhaka) or zip code (84001)">
+          <button type="button" class="btn btn-primary mt-3" id="btn_submit">Get Weather</button>
+        </div>
+        <div class="card">
+          <div class="card-body" id="weather-info"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
