@@ -3,3 +3,8 @@ Name: Mohammad Kamruzzaman
 
 git repo:
 https://github.com/romonzaman/vuejs-module1-assignment-1
+
+
+deploy to:
+
+https://helpful-palmier-fb8f00.netlify.app/
